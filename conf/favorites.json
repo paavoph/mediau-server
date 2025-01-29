@@ -1,0 +1,14 @@
+{
+  "Local": {
+    "Vikerraadio": "http://icecast.err.ee/vikerraadiokorge.mp3"
+  },
+  "US stations": {
+    "SoCal Sound": "https://stream1.thesocalsound.org/1",
+    "KEXP": "https://kexp.streamguys1.com/kexp160.aac"
+  },
+  "Air traffic": {
+    "Tallinn Tower": "https://www.liveatc.net/play/eetn2_twr.pls",
+    "Tallinn Radar": "https://www.liveatc.net/play/eetn2_radar.pls",
+    "Tallinn ATIS": "https://www.liveatc.net/play/eetn2_atis.pls"
+  }
+}
