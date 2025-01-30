@@ -46,7 +46,7 @@ Assuming that the Debian host has MAC address `AA:BB:CC:DD:EE:FF` and the radio 
 We also need to override the DNS server assigned to the radio. We can do it creating a `DHCP option 6` entry and assigning it to the radio:
 ```
 /ip dhcp-server option add name=mediau-dns code=6 value="'192.168.1.10'"
-/ip dhcp-server lease set [find mac-address=AA:BB:CC:DD:EE:FF] dhcp-option=mediau-dns
+/ip dhcp-server lease set [find mac-address=AA:BB:CC:DD:EE:00] dhcp-option=mediau-dns
 ```
 
 If your router does not allow assigning DHCP options, an alternative to this is creating a new subnet and making the Debian host the default DNS server for the entire subnet.
