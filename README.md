@@ -134,7 +134,7 @@ Logos must be baseline JPEG (not progressive), use H1V1 (4:4:4 chroma subsamplin
 
 ### Stream URLs
 
-Stream URLs can be overriden with `/var/www/html/conf/streams.json` file:
+Stream URLs can be overridden with `/var/www/html/conf/streams.json` file:
 
 ```
 {
@@ -177,4 +177,4 @@ It is a simple two-level hierarchy where the first level is folder name and the 
 
 ### Other options
 
-Other configurations options can be found inside `/var/www/html/settings.php`.
+Other configuration options can be found inside `/var/www/html/settings.php`.
