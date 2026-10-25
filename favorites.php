@@ -36,6 +36,6 @@ error_handler(function(){
   // Output the data
   header("Content-Type: text/html");
   header("Content-Length: " . ob_get_length());
-  echo ob_end_flush();
+  ob_end_flush();
 
 });
