@@ -1,5 +1,11 @@
 <?php
 
+// Hard-coded response to geolocation request
+define("GEOLOCATION_COUNTRY",  "EE");             // Two-letter ISO 3166 country code
+define("GEOLOCATION_REGION",   "Pärnumaa");       // Region name (40 bytes max)
+define("GEOLOCATION_CITY",     "Pärnu");          // City name (40 bytes max)
+define("GEOLOCATION_TIMEZONE", "Europe/Tallinn"); // IANA timezone; used to auto-detect DST values
+
 // Whether to show album artwork
 define("SHOW_ARTWORK", false);
 
